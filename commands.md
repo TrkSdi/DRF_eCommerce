@@ -24,3 +24,7 @@ pytest-django
 ## Pytest
 
 pytest -h #print options _and_ config file settings
+
+## Formating
+
+pip install black
