@@ -13,6 +13,8 @@ print(get_random_secret_key())
 
 pip freeze > requirements.txt
 
+./manage.py spectacular --file schema.yml  
+
 # Packages
 
 Django 
@@ -22,11 +24,16 @@ pytest
 pytest-django
 mptt (nested fields)
 drf-spectacular (documentation)
+coverage (unit test coverage)
 
 
 ## Pytest
 
 pytest -h #print options _and_ config file settings
+pytest -s #display print()
+coverage run -m pytest
+coverage html (create html report)
+factoryboy (create test data)
 
 ## Formating
 
