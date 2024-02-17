@@ -23,3 +23,4 @@ class TestProductModels:
     def test_category_str(self, product_factory):
         data = product_factory()
         assert data.__str__() == "test_product"
+        assert data.is_active == True
